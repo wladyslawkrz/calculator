@@ -13,9 +13,9 @@ html {
 
 body {
   align-items: center;
-  background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+  background: linear-gradient(320deg, #f5b3b3, #3ae0c5, #d3ece7);
   display: flex;
-  font-family: "Dosis", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-display: swap;
   height: inherit;
   justify-content: center;
@@ -75,7 +75,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
   color: #fff;
-  background: #d72880;
+  background: #614bc2;
   transition: all 0.1s;
 
 }
@@ -89,8 +89,9 @@ body {
   background-color: inherit;
 }
 
-.calc-button:active {
-  background-color: #ffef78;
+.calc-button:active,
+.calc-button:last-child:active {
+  background-color: #d8e2ff;
 }
 
 .double {
